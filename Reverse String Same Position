@@ -1,1 +1,28 @@
 
+Public class ReveseNumber{
+public int count(int value){
+int count =0;
+for(;i>0;){
+int num = value/10;
+coun= count+1;
+}
+retun count ;
+
+}
+
+public void reverse(int value){
+int final="";
+int num2= count(value);
+for(int i=0;i<num2;i++){
+int temp= value%10;
+final= final*10+temp;
+value =value/10;
+}
+System.out.println("Reverse Number : "+ final);
+}
+public void main(String []args){
+ReverseNumber rn = new ReverseNumber();
+int input =1234;
+rn.reverse(input);
+}
+}
