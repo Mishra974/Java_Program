@@ -9,7 +9,6 @@ coun= count+1;
 retun count ;
 
 }
-
 public void reverse(int value){
 int final="";
 int num2= count(value);
